@@ -16,3 +16,4 @@ int main() {
 	cout << KMP;
 	return 0;
 }
+
