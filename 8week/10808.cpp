@@ -15,7 +15,7 @@ int main() {
 	cin >> s;
 	for (int i = 0; i < s.length(); i++)
 	{   
-		num[s[i] - 97]++;
+		num[(int)s[i] - 97]++;
 	}
 	for (int i = 0; i < num.size(); i++)
 	{
